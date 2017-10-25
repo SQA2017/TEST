@@ -16,7 +16,7 @@ public class Student implements Comparable<Student> {
 	}
 
 	public int compareTo(Student s) {
-		return s.getSid().compareTo(this.sid);
+		return this.sid.compareTo(s.getSid());
 	}
 	
 	public String toString() {
